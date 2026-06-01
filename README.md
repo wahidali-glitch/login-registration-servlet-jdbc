@@ -6,6 +6,7 @@ A full-stack web application for user authentication built with **Java Servlets*
 
 ## 📋 Table of Contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -14,8 +15,17 @@ A full-stack web application for user authentication built with **Java Servlets*
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
+
+---
+
+## 📸 Screenshots
+
+### 🔑 Login Page
+![Login Page](login.png)
+
+### 📝 Sign Up Page
+![Sign Up Page](signup.png)
 
 ---
 
@@ -59,6 +69,8 @@ login-registration-servlet-jdbc/
 │           ├── index.jsp                            # Login page
 │           ├── register.jsp                         # Registration page
 │           └── result.jsp                           # Result/feedback page
+├── login.png                                        # Login page screenshot
+├── signup.png                                       # Sign up page screenshot
 ├── .gitignore
 └── pom.xml                                          # Maven build configuration
 ```
